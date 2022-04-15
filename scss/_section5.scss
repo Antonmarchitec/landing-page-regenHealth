@@ -1,0 +1,135 @@
+@import "colors";   
+
+.contSection5{
+    width: 100%;
+    padding: 80px 0px;
+    background:$colorBlanco;
+    .contSection5_title{
+        text-align: center;
+        color:$colorAzulClaro;
+        font-weight: 100;
+        .edit{
+            color: $colorAzulClaro;
+            font-weight: bold;
+        }
+    }
+
+    .contSection5_contBlock{
+        margin: 40px auto;
+        width: 75%;
+        padding: 10px 0px;
+        position: relative;
+        overflow: hidden;
+        .contSection5_contBlock_contSlader{
+            width: 300%;
+            //background: forestgreen;
+            display: flex;
+            flex-direction: row;
+            .contSection5_contBlock_contSlader_box{
+                width: 100%;
+                padding: 20px 0px;
+                //background: rgb(164, 144, 164);
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                text-align: center;
+                .box{
+                    width: 430px;
+                    padding: 50px;
+                    border:1px solid rgb(191, 191, 191);
+                    background: $colorBlanco;
+                    border-radius: 40px;
+                    position: relative;
+                    .contSection5_contBlock_block_box_img{
+                        width: 280px;
+                        height: 200px;
+                        background: firebrick;
+                        margin:auto;
+                    }
+
+                    .contSection5_contBlock_block_box_title{
+                        margin-top: 10px;
+                        color: $colorAzul;
+                    }
+
+                    .contSection5_contBlock_block_box_parrafo{
+                        margin-top: 20px;
+                        color: $colorAzul;
+                        font-weight: 100;
+                    }
+
+                    .number{
+                        width: 60px;
+                        height: 60px;
+                        background:$colorAzul ;
+                        color: $colorBlanco;
+                        display: flex;
+                        justify-content: center;
+                        align-items:center;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: 45px;
+                        right: 45px;
+                    }
+                }
+            }
+        }
+
+        .arrowLeft{
+            width: 70px;
+            height: 70px;
+            background: $colorAzulClaro;
+            position: absolute;
+            top: calc(50% - 20px);
+            left: 0;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $colorBlanco;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .arrowRight{
+            width: 70px;
+            height: 70px;
+            background: $colorAzulClaro;
+            position: absolute;
+            top: calc(50% - 20px);
+            right: 0;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $colorBlanco;
+            font-size: 30px;  
+            cursor: pointer;  
+        }
+    }
+
+    .contSection5_button{
+        width: 300px;
+        padding: 15px 0px;
+        background: $colorVerde;
+        border: 1px solid transparent;
+        border-radius: 1000px;
+        margin-left: calc(50% - 150px);
+        transition: 0.3s linear all;
+        .fa-hand-point-right{
+            color: $colorNaranja;
+        }
+        .buttonText{
+            color: $colorBlanco;
+            transition: 0.3s linear all;
+        }
+    }
+    .contSection5_button:hover{
+        background: $colorBlanco;
+        border:1px solid $colorVerde;
+        cursor: pointer;
+        .buttonText{
+            color: $colorAzul;
+        }
+    }
+}

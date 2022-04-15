@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.GRIDBASE{
+    width: 100%;
+    max-width: 1250px;
+    //padding: 10px 0px;
+    //background: rgb(154, 152, 153);
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: auto;
+    //grid-gap: 1em;
+    grid-template-areas: "HEADER    HEADER    HEADER    HEADER"
+                         "SECTION1  SECTION1  SECTION1  SECTION1"
+                         "SECTION2  SECTION2  SECTION2  SECTION2"
+                         "SECTION3  SECTION3  SECTION3  SECTION3"
+                         "SECTION4  SECTION4  SECTION4  SECTION4"
+                         "SECTION5  SECTION5  SECTION5  SECTION5"
+                         "SECTION6  SECTION6  SECTION6  SECTION6"
+                         "SECTION7  SECTION7  SECTION7  SECTION7"
+                         "FOOTER    FOOTER    FOOTER    FOOTER";
+    .HEADER{
+        //padding:10px 0px;
+        //background: brown;
+        grid-area: HEADER;
+    }
+    .SECTION1{
+        //padding:10px 0px;
+        //background: brown;
+        grid-area: SECTION1;
+    }
+    .SECTION2{
+        //padding:10px 0px;
+        //background: brown;
+        grid-area: SECTION2;
+    }
+    .SECTION3{
+        //padding:10px 0px;
+        //background: brown;
+        grid-area: SECTION3;
+    }
+    .SECTION4{
+        //padding:10px 0px;
+        //background: brown;
+        grid-area: SECTION4;
+    }
+    .SECTION5{
+        //padding:10px 0px;
+        //background: brown;
+        grid-area: SECTION5;
+    }
+    .SECTION6{
+        //padding:10px 0px;
+        //background: brown;
+        grid-area: SECTION6;
+    }
+    .SECTION7{
+        //padding:10px 0px;
+        background: brown;
+        grid-area: SECTION7;
+    }
+    .FOOTER{
+        //padding:10px 0px;
+        //background: brown;
+        grid-area: FOOTER; 
+    }
+}

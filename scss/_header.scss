@@ -1,0 +1,83 @@
+@import "colors";
+
+.contHeader{
+    width: 100%;
+    //padding: 2px 0px;
+    background: $colorAzul;
+    box-shadow: 0px 5px 20px $colorAzul;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    .contHeader_contText{
+        width: 100%;
+        padding: 5px 0px;
+        .contHeadertext{
+            text-align: center;
+            color:$colorBlanco;
+            letter-spacing:2px;
+            font-size: 14px;
+            //background: hotpink;
+        }
+    }
+    .contHeadernav{
+        width: 100%;
+        padding: 10px 0px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-items: center;
+        .contHeaderblockstars{
+            padding: 10px 0px;
+            //background: rgba(165, 42, 42, 0.516); 
+            display: flex;  
+            .icon_start{
+               color: rgb(237, 178, 27);
+               margin-right: 8px;
+               font-size: 13px;
+            }
+            .icon_Text{
+                color: rgb(37, 37, 37);
+                font-size: 12px;
+            }
+        }
+
+        .contHeaderblockregen{
+            width: 150px;
+            height: 50px;
+            //background: rgba(165, 42, 42, 0.377);
+        }
+
+        .contHeaderblockmenu{
+            width:380px;
+            padding: 10px 0px; 
+            //background: rgba(165, 42, 42, 0.516);  
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            .block_li{
+                padding: 5px 10px;
+                //background: grey;
+                list-style: none;
+                .link{
+                     text-decoration: none;
+                     color: rgb(37, 37, 37);
+                     transition: 0.2s all;
+                }
+                .link:hover{
+                    color: rgb(210, 152, 35);
+                }
+            }
+            .fa-cart-shopping{
+                color: rgb(44, 44, 139);
+                cursor: pointer;
+            }  
+        }
+      
+        
+    }
+}

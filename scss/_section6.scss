@@ -1,0 +1,35 @@
+@import "colors";
+
+.contSection6{
+    width: 100%;
+    padding: 10px 0px;
+    background: $colorAzul;
+    .contSection6_block{
+        width: 700px;
+        padding: 10px 0px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .contSection6_block_img{
+            width: 120px;
+            height: 120px;
+        }
+        .contSection6_block_description{
+            width: 600px;
+            padding: 10px 0px;
+            text-align: center;
+            .contSection6_block_description_title{
+                color: $colorBlanco;
+                font-weight: bold;
+            }
+            .contSection6_block_description_parrafo{
+                margin-top: 12px;
+                color: $colorBlanco;
+                font-weight: 100;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,10 @@
+@import "colors";
+.contSection7{
+    width: 100%;
+    padding: 50px 0px;
+    background: yellow;
+    .contSection7_title{
+        text-align: center; 
+        color: $colorAzulClaro;
+    }
+}

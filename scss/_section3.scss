@@ -1,0 +1,64 @@
+@import "colors";
+
+.contSection3{
+    width: 100%;
+    padding: 50px 0px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    .contSection3_title{
+        margin-top: 50px;
+        text-align: center;
+        color: $colorAzulClaro;
+    }
+
+    .contSection3_contentBox{
+        margin-top: 20px;
+        width: 80%;
+        margin: auto;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        .contSection3_contentBox_box{
+            width: 250px;
+            height: 180px;
+           
+            .contSection3_contentBox_box_img{
+                width: 120px;
+                height: 100px;
+                margin: 10px auto;
+            }
+            .contSection3_contentBox_box_text{
+                text-align: center;
+                color: $colorAzul;
+            }
+        }
+    }
+
+    .contSection3_button{
+        margin-top: 10px;
+        width: 300px;
+        padding: 15px;
+        border-radius: 1000px;
+        border: 1px solid transparent;
+        background: $colorVerde;
+        transition: 0.3s linear all;
+        .fa-hand-point-right{
+            color: $colorNaranja;
+        }
+        .buttonText{
+            margin-left:5px;
+            color: $colorBlanco;
+            transition: 0.3s linear all;
+        }
+    }
+    .contSection3_button:hover{
+        background: $colorBlanco;
+        border:1px solid $colorVerde;
+        cursor: pointer;
+        .buttonText{
+            color: $colorAzul;
+        }
+    }
+}
